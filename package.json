@@ -1,0 +1,23 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "description": "Beginner coding in es6 format",
+  "main": "index.js",
+  "scripts": {
+   "build":"babel src -d dist"
+  },
+  "scripts":{
+    "build":"babel --presets es2015 src -d dist"
+  },
+  "keywords": [
+    "es6",
+    "babel",
+    "beginner"
+  ],
+  "author": "Kollan Hillary Sadat",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
